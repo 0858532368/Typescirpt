@@ -5,4 +5,4 @@ function getRectangleInfo(width: number, height: number): { perimeter: number; a
 }
 
 const result = getRectangleInfo(5, 3);
-console.log(`Chu vi: ${result.perimeter}, Diện tích: ${result.area}`);
+console.log(`Chu 5vi: ${result.perimeter}, Diện tích: ${result.area}`);
