@@ -36,7 +36,7 @@ const UserList: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
 
-  // Gọi API khi component mount
+  
   useEffect(() => {
     axios
       .get<User[]>("https://jsonplaceholder.typicode.com/users")
@@ -50,7 +50,7 @@ const UserList: React.FC = () => {
 
   return (
     <div style={{ display: "flex", gap: "50px", padding: "20px" }}>
-      {/* Danh sách users */}
+    
       <div>
         <h2>Danh sách người dùng</h2>
         <ul>
@@ -62,7 +62,7 @@ const UserList: React.FC = () => {
         </ul>
       </div>
 
-      {/* Chi tiết user */}
+    
       <div>
         {selectedUser ? (
           <div>
