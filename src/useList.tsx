@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-// --- Interface định nghĩa kiểu dữ liệu user ---
+
 interface Geo {
   lat: string;
   lng: string;
